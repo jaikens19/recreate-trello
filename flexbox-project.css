@@ -1,4 +1,35 @@
 /* Write your CSS here. */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.header-nav__container {
+  background-color: #026aa7;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 4px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+#alerts {
+  background-color: #CF513D;
+}
+
+@media screen and  (max-width: 730px){
+  #search {
+    display: none;
+  }
+  .boards-label {
+    display: none;
+  }
+}
+
+
 
 
 
