@@ -29,8 +29,136 @@ body {
   }
 }
 
+.team__container {
+  background-color: #f4f5f7;
+  padding: 32px;
+}
+
+.team__info {
+  display: flex;
+  flex-direction: column;
+  margin: 0, auto;
+  max-width: 650px;
+  text-align: center;
+}
+
+.team__info > h1 {
+  margin: 0 0 12px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.team__info  a {
+  color: #172b4d;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+.tabbed-nav__container {
+  background-color: #F4F5F7;
+
+}
+
+.tabbed-nav__group {
+  border-bottom: 1px solid #DFE1E6;
+  display: flex;
+  justify-content: center;
+}
+
+.tabbed-nav__link {
+  background-color:#DFE1E6;
+  border: 1px solid #DFE1E6;
+  border-bottom: 0;
+  border-radius: 2px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0 5px;
+  color: #172B4D
+}
+
+.boards__container {
+  margin: 0 auto;
+  padding: 32px;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  
+}
+
+.boards__sidebar {
+  background-color: #6C547B;
+  border-radius: 3px;
+  margin: 0 32px 32px 0;
+  padding:  20px 32px 20px;
+  /* max-height: 220px; */
+  max-width: 180px;
+  width: 20%;
+  height: 100%;
+  color: white;
+
+} 
+.boards__sidebar-content a[href] {
+  color: white;
+  
+}
+
+.boards__sidebar-content .title {
+  font-weight: 600;
+}
+
+.boards__sidebar-content .description {
+  color: lightblue;
+}
+
+#boards-tab {
+  background-color:white;
+  border: 0px;
+}
+
+.boards__group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%
+}
+
+.boards__board {
+  background-color: black;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-weight: bold;
+  height: 100px;
+  margin: 0 8px 16px;
+  max-width: 250px;
+  padding: 4px 8px;
+  position: relative;
+  color: white;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
 
 
+
+
+
+
+
+/* all the stuff less than this number */
+/* the max size stuff will happen */
+@media screen and (max-width: 500px){
+  .tabbed-nav__group {
+    align-items: center;
+    display: block;
+  }
+  .tabbed-nav__link {
+    display: block;
+    text-align:center;
+    
+  }
+
+}
 
 
 
